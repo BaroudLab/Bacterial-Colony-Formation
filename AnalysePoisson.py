@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 from scipy import optimize
 from scipy.stats import poisson
+from AnalyseStochasticCoin import *  
 
 def ComputeCov_Poiss(Fisher_Info,sample_size,lam_rho,rho,lam,q):
     
